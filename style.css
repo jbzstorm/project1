@@ -11,6 +11,7 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Bree Serif', serif;
 }
 
+/* navbar */
 .navbar-light .navbar-brand  {
     font-family: 'Bangers', cursive;
     font-size: 40px;
@@ -25,15 +26,54 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 0.5rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+/* Opening jumbotron */
 .display-4 {
     font-family: 'Press Start 2P', cursive;
 }
 
-.jumbotron {
+.jumbotron1 {
     background-attachment: fixed;
-    background-image: url(jumbo.jpg);
+    background-image: url(jumbo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color:white;
     text-shadow: 1px 1px 1px black;
+}
+
+/* Playdate */
+.jumbotron2 {
+    background-color: white;
+}
+
+/* Tournament */
+.img-fluid {
+    height:300px;
+}
+
+.card-img-top {
+    background-color: black;
+    height:200px
+}
+
+/* Duel */
+.jumbotron3 {
+    background-attachment: fixed;
+    background-image: url(duel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+    text-shadow: 1px 1px 1px white;
+}
+
+/* footer */
+.footer img {
+    width:300px
+}
+
+.foot {
+    font-size: 50px;
 }
